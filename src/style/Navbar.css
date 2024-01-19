@@ -1,0 +1,41 @@
+@import url("./reset.css");
+
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper__header{
+    padding: 0 120px;
+    background-image: url("../img/imgBackground 1.png");
+    height: 100vh;
+
+}
+
+header{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav__ul{
+    display: flex;
+    margin-left: 2px;
+}
+
+.nav__li:not(:first-child){
+    margin-left: 50px;
+}
+
+
+
+
