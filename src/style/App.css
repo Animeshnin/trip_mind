@@ -134,3 +134,120 @@
 .card-3{
     background-image: url("../img/card/da.png");
 }
+
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.about{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about__text{
+    display: flex;
+    width: 401px;
+    flex-direction: column;
+    justify-content: center;
+}
+.about__text-h1{
+    color: #000;
+
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; /* 130.952% */
+
+}
+
+.about__text-p{
+    color: #000;
+    padding-top: 30px;
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 183.333% */
+}
+
+.about__link{
+    color: #DD9428;
+    width: 30%;
+    padding: 25px 65px;
+    border-radius: 38px;
+    border: 2px solid #DD9428;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form{
+    background-image: url("../img/imgForm 1.png");
+    height: 518px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__flex{
+    display: flex;
+    margin-top: 100px;
+    justify-content: flex-end;
+}
+.form__text{
+    width: 403px;
+    color: #000;
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 85px;
+/* 183.333% */
+}
+
+form{
+    display: block;
+}
+
+.mainForm{
+
+    align-items: center;
+
+
+}
+
+.input{
+    padding: 25px 0 25px 20px;
+    border-radius: 38px;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 25px;
+    border: 2px solid #CED8DF;
+}
+
+.form__text-p{
+    width: 202px;
+    padding-top: 30px;
+}
+
+.obra{
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+
+    font-family: Montserrat, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 163.636% */
+    width: 224px;
+    padding-top: 10px;
+}
+
+.color{
+    color: #DD9428;
+}

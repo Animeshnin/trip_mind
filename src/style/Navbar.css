@@ -10,7 +10,7 @@ body{
 .wrapper__header{
     padding: 0 120px;
     background-image: url("../img/imgBackground 1.png");
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
